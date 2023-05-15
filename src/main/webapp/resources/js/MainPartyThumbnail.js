@@ -1,0 +1,4 @@
+/**
+ * 
+ */
+$('.Thumbnail_Slide').slick();
