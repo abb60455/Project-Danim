@@ -7,6 +7,7 @@
    <name>danim</name>
    <packaging>war</packaging>
    <version>1.0.0-BUILD-SNAPSHOT</version>
+
 	<properties>
 		<java-version>11</java-version>
 		<org.springframework-version>5.2.8.RELEASE</org.springframework-version>
@@ -102,6 +103,7 @@
             <version>3.1.0</version>
             <scope>provided</scope>
         </dependency>
+
 		<dependency>
 			<groupId>javax.servlet.jsp</groupId>
 			<artifactId>jsp-api</artifactId>

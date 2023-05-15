@@ -3,18 +3,19 @@ package com.danim.model;
 import java.util.Date;
 
 public class ReviewListVO {
-	private int review_num;			//°Ô½Ã±Û °³º° ¹øÈ£
-	private String review_title;	//°Ô½Ã±Û Á¦¸ñ
-	private String review_content;	//°Ô½Ã±Û ³»¿ë
-	private String writer;			//°Ô½Ã±Û ÀÛ¼ºÀÚ
-	private Date insert_date;		//°Ô½Ã±Û µî·ÏÀÏ
-	private int view_count;			//°Ô½Ã±Û Á¶È¸ ¼ö
-	private int good_count;			//°Ô½Ã±Û ÃßÃµ ¼ö
-	private int comment_count;		//°Ô½Ã±Û ´ñ±Û ¼ö
-	private int do_id;				//°Ô½Ã±Û µµ
-	private int si_id;				//°Ô½Ã±Û ½Ã
-	private String review_filename;	//°Ô½Ã±Û ÀÌ¹ÌÁö ÆÄÀÏ ¸í
-	private int user_id;			//°Ô½Ã±Û ÀÛ¼ºÀÚ °íÀ¯¹øÈ£
+
+	private int review_num;			//ï¿½Ô½Ã±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È£
+	private String review_title;	//ï¿½Ô½Ã±ï¿½ ï¿½ï¿½ï¿½
+	private String review_content;	//ï¿½Ô½Ã±ï¿½ ï¿½ï¿½ï¿½ï¿½
+	private String writer;			//ï¿½Ô½Ã±ï¿½ ï¿½Û¼ï¿½ï¿½ï¿½
+	private Date insert_date;		//ï¿½Ô½Ã±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½
+	private int view_count;			//ï¿½Ô½Ã±ï¿½ ï¿½È¸ ï¿½ï¿½
+	private int good_count;			//ï¿½Ô½Ã±ï¿½ ï¿½ï¿½Ãµ ï¿½ï¿½
+	private int comment_count;		//ï¿½Ô½Ã±ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½
+	private int do_id;				//ï¿½Ô½Ã±ï¿½ ï¿½ï¿½
+	private int si_id;				//ï¿½Ô½Ã±ï¿½ ï¿½ï¿½
+	private String review_filename;	//ï¿½Ô½Ã±ï¿½ ï¿½Ì¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
+	private int user_id;			//ï¿½Ô½Ã±ï¿½ ï¿½Û¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½È£
 	
 	public int getReview_num() {
 		return review_num;
@@ -88,4 +89,5 @@ public class ReviewListVO {
 	public void setUser_id(int user_id) {
 		this.user_id = user_id;
 	}
+
 }
