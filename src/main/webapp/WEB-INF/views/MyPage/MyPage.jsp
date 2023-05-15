@@ -27,7 +27,6 @@
 	<div class="row mt-5">
 		<div class="col-md-12">
 			
-	    	
 	    	<div class="d-flex" id="chNickname" >
 	    	<label class="col-md-1 nickname">닉네임</label>
 	    	<button type="submit" class="btn btn-primary btn-xs">수정</button>

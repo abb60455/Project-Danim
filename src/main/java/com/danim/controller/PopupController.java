@@ -13,25 +13,25 @@ public class PopupController {
    private static final Logger logger = LoggerFactory.getLogger(PopupController.class);
    
    
-   //¸¶ÀÌÆäÀÌÁö ÆË¾÷ ÀÌµ¿
+   //ë§ˆì´í˜ì´ì§€ íŒì—… ì´ë™
    @RequestMapping(value="/MyPage", method = RequestMethod.GET)
    public  String MyPagepop() {
       
-      logger.info("¸¶ÀÌ ÆäÀÌÁö ÁøÀÔ");
+      logger.info("ë§ˆì´ í˜ì´ì§€ ì§„ì…");
       
       return "MyPage/MyPage";
    }
-   //¸¶ÀÌÆäÀÌÁö(³»°Ô½Ã¹°) ÀÌµ¿
+   //ë§ˆì´í˜ì´ì§€(ë‚´ê²Œì‹œë¬¼) ì´ë™
    @RequestMapping(value="/MyPagePost", method = RequestMethod.GET)
    public  String MyPagePost() {
-      logger.info("³»°Ô½Ã¹° ÁøÀÔ");
+      logger.info("ë‚´ê²Œì‹œë¬¼ ì§„ì…");
       
       return "MyPage/MyPagePost";
    }
-   //¸¶ÀÌÆäÀÌÁö(ÄíÆùÇÔ) ÀÌµ¿
+   //ë§ˆì´í˜ì´ì§€(ì¿ í°í•¨) ì´ë™
    @RequestMapping(value="/MyPageCoupon", method = RequestMethod.GET)
    public  String MyPageCoupon() {
-      logger.info("³»ÄíÆùÇÔ ÁøÀÔ");
+      logger.info("ë‚´ì¿ í°í•¨ ì§„ì…");
       
       return "MyPage/MyPageCoupon";
    }
