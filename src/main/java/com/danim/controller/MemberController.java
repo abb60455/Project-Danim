@@ -19,51 +19,51 @@ public class MemberController {
 	@Autowired
 	private MemberService memberservice;
 	
-	//·Î±×ÀÎ ÆäÀÌÁö ÀÌµ¿
+	//ë¡œê·¸ì¸ í˜ì´ì§€ ì´ë™
 	@RequestMapping(value = "login", method = RequestMethod.GET)
 	public void loginGET() {
 		
-		logger.info("·Î±×ÀÎ ÆäÀÌÁö ÁøÀÔ");
+		logger.info("ë¡œê·¸ì¸ í˜ì´ì§€ ì§„ì…");
 		
 		
 	}
 	
-	//È¸¿ø°¡ÀÔ ÆäÀÌÁö ÀÌµ¿
+	//íšŒì›ê°€ì… í˜ì´ì§€ ì´ë™
 	@RequestMapping(value = "join", method = RequestMethod.GET)
 	public void joinGET() {
 		
-		logger.info("È¸¿ø°¡ÀÔ ÆäÀÌÁö ÁøÀÔ");
+		logger.info("íšŒì›ê°€ì… í˜ì´ì§€ ì§„ì…");
 		
 	}
 	
-	//È¸¿ø°¡ÀÔ
+	//íšŒì›ê°€ì…
 		@RequestMapping(value="/join", method=RequestMethod.POST)
 		public String joinPOST(MemberVO member) throws Exception{
 			
-			logger.info("join ÁøÀÔ");
+			logger.info("join ì§„ì…");
 			
-			// È¸¿ø°¡ÀÔ ¼­ºñ½º ½ÇÇà
-			memberservice.memberJoin(member);
+			// íšŒì›ê°€ì… ì„œë¹„ìŠ¤ ì‹¤í–‰
+			memberservice.MemberJoin(member);
 			
-			logger.info("join Service ¼º°ø");
+			logger.info("join Service ì„±ê³µ");
 			
 			return "redirect:/login";
 			
 		}
 	
-	//ºñ¹Ğ¹øÈ£ º¯°æ ÆäÀÌÁö ÀÌµ¿
+	//ë¹„ë°€ë²ˆí˜¸ ë³€ê²½ í˜ì´ì§€ ì´ë™
 	@RequestMapping(value = "change_pw", method = RequestMethod.GET)
 	public void change_pwGET() {
 		
-		logger.info("ºñ¹Ğ¹øÈ£ º¯°æ ÆäÀÌÁö ÁøÀÔ");
+		logger.info("ë¹„ë°€ë²ˆí˜¸ ë³€ê²½ í˜ì´ì§€ ì§„ì…");
 		
 	}
 	
-	//ºñ¹Ğ¹øÈ£ Ã£±â ÆäÀÌÁö ÀÌµ¿
+	//ë¹„ë°€ë²ˆí˜¸ ì°¾ê¸° í˜ì´ì§€ ì´ë™
 	@RequestMapping(value = "find_pw", method = RequestMethod.GET)
 	public void find_pwGET() {
 		
-		logger.info("ºñ¹Ğ¹øÈ£ Ã£±â ÆäÀÌÁö ÁøÀÔ");
+		logger.info("ë¹„ë°€ë²ˆí˜¸ ì°¾ê¸° í˜ì´ì§€ ì§„ì…");
 		
 	}
 	

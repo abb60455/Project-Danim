@@ -9,37 +9,31 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class PopupController {
-	
-	private static final Logger logger = LoggerFactory.getLogger(PopupController.class);
-	
-	
-	//¸¶ÀÌÆäÀÌÁö ÆË¾÷ ÀÌµ¿
-	@RequestMapping(value="/MyPage", method = RequestMethod.GET)
-	public  String MyPagepop() {
-		
-		logger.info("¸¶ÀÌ ÆäÀÌÁö ÁøÀÔ");
-		
-		return "MyPage/MyPage";
-	}
-	//¸¶ÀÌÆäÀÌÁö(³»°Ô½Ã¹°) ÀÌµ¿
-	@RequestMapping(value="/MyPagePost", method = RequestMethod.GET)
-	public  String MyPagePost() {
-		logger.info("³»°Ô½Ã¹° ÁøÀÔ");
-		
-		return "MyPage/MyPagePost";
-	}
-	//¸¶ÀÌÆäÀÌÁö(ÄíÆùÇÔ) ÀÌµ¿
-	@RequestMapping(value="/MyPageCoupon", method = RequestMethod.GET)
-	public  String MyPageCoupon() {
-		logger.info("³»ÄíÆùÇÔ ÁøÀÔ");
-		
-		return "MyPage/MyPageCoupon";
-	}
-	//·Î±×ÀÎ ÆäÀÌÁö ÀÌµ¿
-		@RequestMapping(value = "login", method = RequestMethod.GET)
-		public void loginGET() {
-			
-			logger.info("·Î±×ÀÎ ÆäÀÌÁö ÁøÀÔ");
-			
-		}
+   
+   private static final Logger logger = LoggerFactory.getLogger(PopupController.class);
+   
+   
+   //ë§ˆì´í˜ì´ì§€ íŒì—… ì´ë™
+   @RequestMapping(value="/MyPage", method = RequestMethod.GET)
+   public  String MyPagepop() {
+      
+      logger.info("ë§ˆì´ í˜ì´ì§€ ì§„ì…");
+      
+      return "MyPage/MyPage";
+   }
+   //ë§ˆì´í˜ì´ì§€(ë‚´ê²Œì‹œë¬¼) ì´ë™
+   @RequestMapping(value="/MyPagePost", method = RequestMethod.GET)
+   public  String MyPagePost() {
+      logger.info("ë‚´ê²Œì‹œë¬¼ ì§„ì…");
+      
+      return "MyPage/MyPagePost";
+   }
+   //ë§ˆì´í˜ì´ì§€(ì¿ í°í•¨) ì´ë™
+   @RequestMapping(value="/MyPageCoupon", method = RequestMethod.GET)
+   public  String MyPageCoupon() {
+      logger.info("ë‚´ì¿ í°í•¨ ì§„ì…");
+      
+      return "MyPage/MyPageCoupon";
+   }
+   
 }
