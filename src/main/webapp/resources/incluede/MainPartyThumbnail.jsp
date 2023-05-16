@@ -11,6 +11,8 @@
 <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script type="text/javascript"
 	src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<!-- css -->	
 <link rel="stylesheet" href="resources/css/MainPartyThumbnail.css">
 </head>
 <body>
@@ -32,13 +34,6 @@
 
 		</div>
 
-		<div>
-			<a href="/PartyDetailMapping"> <!-- src 나중에 수정 --> <img
-				src="https://lettercounter.net/wp-content/uploads/2022/03/free-image-sites.png"
-				alt="Click me!">
-			</a>
-
-		</div>
 
 	</section>
 
