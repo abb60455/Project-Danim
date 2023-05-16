@@ -11,6 +11,6 @@ public class MainFoodBulletinBoardController {
 		// 여기에서 필요한 로직을 처리하면 됩니다.
 
 		// 이동할 페이지의 뷰 이름을 반환합니다.
-		return "yourViewName";
+		return "/yourViewName";
 	}
 }

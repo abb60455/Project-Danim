@@ -2,13 +2,9 @@
 <!DOCTYPE mapper
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-  <mapper namespace="">
-	<insert id="memberJoin">
-  		insert into users(user_pass, user_name, user_gender, user_birth, user_nickname, user_email, user_do, user_si, user_addr) values(#{user_pass}, #{user_name}, #{user_gender}, #{user_birth}, #{user_nickname}, #{user_email}, #{user_do}, #{user_si}, #{user_addr})
-
-  	</insert>
+  <mapper namespace="menu">
   	
-  	<select id="partyThumbnail">
+  	<select id="partyThumbnail" resultType="menuVO">
   	SELECT * FROM party
   	</select>
   </mapper>
