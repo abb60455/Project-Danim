@@ -1,2 +1,5 @@
 @charset "UTF-8";
-
+.main_table{
+      display: flex;
+  justify-content: center;
+}

@@ -14,35 +14,120 @@
 <!-- css -->
 <link rel="stylesheet" href="resources/css/MainFoodBulletinBoard.css">
 
-
-
-
-
 </head>
 <body>
 
 
 	<section class="food">
-
-
-		<div
-			class="MainCityCard-module__container--ik11v swiper-slide swiper-slide-next"
-			style="width: 270px; margin-right: 8px;">
-			<img
-				src="https://d2ur7st6jjikze.cloudfront.net/landscapes/4751_large_square_1536050273.jpg?1536050273"
-				alt="https://d2ur7st6jjikze.cloudfront.net/landscapes/4751_large_square_1536050273.jpg?1536050273"
-				class="MainCityCard-module__responsiveImg--jfMo2 ResponsiveImage-module__image--mFUO8 ResponsiveImage-module__targetWidth--ITPiN">
-			<div class="MainCityCard-module__gradientBackground--Yog2y"></div>
-			<div class="MainCityCard-module__contents--vD8OP">
-				<div class="MainCityCard-module__titleWrapper--qUJGA">
-					<span class="MainCityCard-module__title--yl4rx">경기</span>
-					<div class="MainCityCard-module__badgeWrapper--YmsHY"></div>
-				</div>
-				<span class="MainCityCard-module__desc--D_UuR">370여 개의 여행 상품</span><a
-					class="Link-module__link--DdyR6 Link-module__medium--ZTtp0 Button-module__button--nQweC Button-module__outline--wLxv3 Button-module__medium--bLzcD MainCityCard-module__cityPage--RXURg"
-					href="/FoodBulletinBoard">둘러보기</a>
-			</div>
+		
+		<div style="width: 270px; margin-right: 8px;">
+			<img src="https://www.shutterstock.com/ko/blog/wp-content/uploads/sites/17/2018/11/shutterstock_735067627.jpg" style="width: 270px; margin-right: 8px;">
+			<div></div>
+			<div><div><span>전체</span><div></div></div><span>370여 개의 여행 상품</span><a href="">둘러보기</a>	</div>
 		</div>
+		
+		<div style="width: 270px; margin-right: 8px;">
+			<img src="https://www.shutterstock.com/ko/blog/wp-content/uploads/sites/17/2018/11/shutterstock_735067627.jpg" style="width: 270px; margin-right: 8px;">
+			<div></div>
+			<div><div><span>서울</span><div></div></div><span>370여 개의 여행 상품</span><a href="">둘러보기</a>	</div>
+		</div>
+		
+		<div style="width: 270px; margin-right: 8px;">
+			<img src="https://www.shutterstock.com/ko/blog/wp-content/uploads/sites/17/2018/11/shutterstock_735067627.jpg" style="width: 270px; margin-right: 8px;">
+			<div></div>
+			<div><div><span>부산</span><div></div></div><span>370여 개의 여행 상품</span><a href="">둘러보기</a>	</div>
+		</div>
+		
+		<div style="width: 270px; margin-right: 8px;">
+			<img src="https://www.shutterstock.com/ko/blog/wp-content/uploads/sites/17/2018/11/shutterstock_735067627.jpg" style="width: 270px; margin-right: 8px;">
+			<div></div>
+			<div><div><span>대구</span><div></div></div><span>370여 개의 여행 상품</span><a href="">둘러보기</a>	</div>
+		</div>
+		
+		<div style="width: 270px; margin-right: 8px;">
+			<img src="https://www.shutterstock.com/ko/blog/wp-content/uploads/sites/17/2018/11/shutterstock_735067627.jpg" style="width: 270px; margin-right: 8px;">
+			<div></div>
+			<div><div><span>인천</span><div></div></div><span>370여 개의 여행 상품</span><a href="">둘러보기</a>	</div>
+		</div>
+		
+		<div style="width: 270px; margin-right: 8px;">
+			<img src="https://www.shutterstock.com/ko/blog/wp-content/uploads/sites/17/2018/11/shutterstock_735067627.jpg" style="width: 270px; margin-right: 8px;">
+			<div></div>
+			<div><div><span>광주</span><div></div></div><span>370여 개의 여행 상품</span><a href="">둘러보기</a>	</div>
+		</div>
+		
+		<div style="width: 270px; margin-right: 8px;">
+			<img src="https://www.shutterstock.com/ko/blog/wp-content/uploads/sites/17/2018/11/shutterstock_735067627.jpg" style="width: 270px; margin-right: 8px;">
+			<div></div>
+			<div><div><span>대전</span><div></div></div><span>370여 개의 여행 상품</span><a href="">둘러보기</a>	</div>
+		</div>
+		
+		<div style="width: 270px; margin-right: 8px;">
+			<img src="https://www.shutterstock.com/ko/blog/wp-content/uploads/sites/17/2018/11/shutterstock_735067627.jpg" style="width: 270px; margin-right: 8px;">
+			<div></div>
+			<div><div><span>울산</span><div></div></div><span>370여 개의 여행 상품</span><a href="">둘러보기</a>	</div>
+		</div>
+		
+		<div style="width: 270px; margin-right: 8px;">
+			<img src="https://www.shutterstock.com/ko/blog/wp-content/uploads/sites/17/2018/11/shutterstock_735067627.jpg" style="width: 270px; margin-right: 8px;">
+			<div></div>
+			<div><div><span>세종</span><div></div></div><span>370여 개의 여행 상품</span><a href="">둘러보기</a>	</div>
+		</div>
+		
+		<div style="width: 270px; margin-right: 8px;">
+			<img src="https://www.shutterstock.com/ko/blog/wp-content/uploads/sites/17/2018/11/shutterstock_735067627.jpg" style="width: 270px; margin-right: 8px;">
+			<div></div>
+			<div><div><span>경기도</span><div></div></div><span>370여 개의 여행 상품</span><a href="">둘러보기</a>	</div>
+		</div>
+		
+		<div style="width: 270px; margin-right: 8px;">
+			<img src="https://www.shutterstock.com/ko/blog/wp-content/uploads/sites/17/2018/11/shutterstock_735067627.jpg" style="width: 270px; margin-right: 8px;">
+			<div></div>
+			<div><div><span>강원도</span><div></div></div><span>370여 개의 여행 상품</span><a href="">둘러보기</a>	</div>
+		</div>
+		
+		<div style="width: 270px; margin-right: 8px;">
+			<img src="https://www.shutterstock.com/ko/blog/wp-content/uploads/sites/17/2018/11/shutterstock_735067627.jpg" style="width: 270px; margin-right: 8px;">
+			<div></div>
+			<div><div><span>충청북도</span><div></div></div><span>370여 개의 여행 상품</span><a href="">둘러보기</a>	</div>
+		</div>
+		
+		<div style="width: 270px; margin-right: 8px;">
+			<img src="https://www.shutterstock.com/ko/blog/wp-content/uploads/sites/17/2018/11/shutterstock_735067627.jpg" style="width: 270px; margin-right: 8px;">
+			<div></div>
+			<div><div><span>충청남도</span><div></div></div><span>370여 개의 여행 상품</span><a href="">둘러보기</a>	</div>
+		</div>
+		
+		<div style="width: 270px; margin-right: 8px;">
+			<img src="https://www.shutterstock.com/ko/blog/wp-content/uploads/sites/17/2018/11/shutterstock_735067627.jpg" style="width: 270px; margin-right: 8px;">
+			<div></div>
+			<div><div><span>전라북도</span><div></div></div><span>370여 개의 여행 상품</span><a href="">둘러보기</a>	</div>
+		</div>
+		
+		<div style="width: 270px; margin-right: 8px;">
+			<img src="https://www.shutterstock.com/ko/blog/wp-content/uploads/sites/17/2018/11/shutterstock_735067627.jpg" style="width: 270px; margin-right: 8px;">
+			<div></div>
+			<div><div><span>전라남도</span><div></div></div><span>370여 개의 여행 상품</span><a href="">둘러보기</a>	</div>
+		</div>
+		
+		<div style="width: 270px; margin-right: 8px;">
+			<img src="https://www.shutterstock.com/ko/blog/wp-content/uploads/sites/17/2018/11/shutterstock_735067627.jpg" style="width: 270px; margin-right: 8px;">
+			<div></div>
+			<div><div><span>경상북도</span><div></div></div><span>370여 개의 여행 상품</span><a href="">둘러보기</a>	</div>
+		</div>
+		
+		<div style="width: 270px; margin-right: 8px;">
+			<img src="https://www.shutterstock.com/ko/blog/wp-content/uploads/sites/17/2018/11/shutterstock_735067627.jpg" style="width: 270px; margin-right: 8px;">
+			<div></div>
+			<div><div><span>경상남도</span><div></div></div><span>370여 개의 여행 상품</span><a href="">둘러보기</a>	</div>
+		</div>
+		
+		<div style="width: 270px; margin-right: 8px;">
+			<img src="https://www.shutterstock.com/ko/blog/wp-content/uploads/sites/17/2018/11/shutterstock_735067627.jpg" style="width: 270px; margin-right: 8px;">
+			<div></div>
+			<div><div><span>제주도</span><div></div></div><span>370여 개의 여행 상품</span><a href="">둘러보기</a>	</div>
+		</div>
+
 
 	</section>
 
