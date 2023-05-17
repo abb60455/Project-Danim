@@ -9,23 +9,31 @@
 
 </head>
 <body>
-	<%@ include file="./include/header.jsp"%>
+	<!-- 헤더 -->
+	<jsp:include page="/resources/incluede/header.jsp" />
 
-	<h1>여행이 돌아왔어요</h1>
-	<%@ include file="./include/MainPartyThumbnail.jsp"%>
+	<jsp:include page="/resources/incluede/totalSearch.jsp" />
 
-	<h1>지역별 게시판 이동</h1>
-	 <%@ include file="./include/MainRegionalBulletinBoard.jsp"%>
+	<center>
+		<!-- 축제 썸네일 -->
+		<h1>여행이 돌아왔어요</h1>
+		<jsp:include page="/resources/incluede/MainPartyThumbnail.jsp" />
 
+		<!-- 지역리뷰게시판 -->
+		<h1>지역별 게시판 이동</h1>
+		<jsp:include page="/resources/incluede/MainRegionalBulletinBoard.jsp" />
 
-	<h1>먹거리 게시판 이동</h1>
-	<%@ include file="./include/MainFoodBulletinBoard.jsp"%>
+		<!-- 지역먹거리게시판 -->
+		<h1>먹거리 게시판 이동</h1>
+		<jsp:include page="/resources/incluede/MainFoodBulletinBoard.jsp" />
 
-	<h1>베스트 리뷰</h1>
-	<%@ include file="./include/MainReviewBoard.jsp"%>
-	
-	<%@ include file="./include/footer.jsp"%>
-	
+		<!-- 리뷰게시판 상세페이지로 이동 -->
+		<h1>베스트 리뷰</h1>
+		<jsp:include page="/resources/incluede/MainReviewBoard.jsp" />
+	</center>
+	<!-- 푸터 -->
+	<jsp:include page="/resources/incluede/footer.jsp" />
+
 
 
 </body>

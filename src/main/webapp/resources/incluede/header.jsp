@@ -22,13 +22,13 @@
           <a class="nav-link" href="/">메인</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/review/review_list">리뷰게시판</a>
+          <a class="nav-link" href="/board/review_list?currentPage=1">리뷰게시판</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">축제게시판</a>
+          <a class="nav-link" href="board/party_list?currentPage=1">축제게시판</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">먹거리게시판</a>
+          <a class="nav-link" href="board/food_list?currentPage=1">먹거리게시판</a>
         </li>
       </ul>
       <form class="d-flex">
