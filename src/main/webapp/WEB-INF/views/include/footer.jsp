@@ -6,7 +6,7 @@
 <footer class="container-fluid p-3 bg-light" style="bottom:0;">
 	<div>
 		<ul class="breadcrumb d-flex justify-content-center">
-			<li class="breadcrumb-item"><a href="/termsOfUse">이용약관 및 개인정보처리</a></li>
+			<li class="breadcrumb-item"><a href="termsOfUse">이용약관 및 개인정보처리</a></li>
 			<li class="breadcrumb-item"><a href="#">공지사항</a></li>
 			<li class="breadcrumb-item"><a href="#">내 문의사항</a></li>
 		</ul>
